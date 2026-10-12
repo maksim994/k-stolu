@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "outputDirectory": "public/images/recipes",
+  "format": "webp",
+  "prompts": [
+    {
+      "id": "tuna-sandwich",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape 1536x1024 recipe photograph for a Russian home-cooking app. Subject: two freshly assembled tuna and cucumber sandwiches cut diagonally on a plain light ceramic plate; visible canned tuna mixed with natural yogurt, thin cucumber slices, wholegrain bread. No lettuce, mayonnaise or exotic ingredients. Entire dish legible, centered, enough margin for 3:2 crop, slight overhead three-quarter view. Natural soft window daylight, honest appetizing homemade food textures, pale table, subtle linen napkin, no hands, no text, no logos, no collage. Save as a photographic image."
+    },
+    {
+      "common": "Use case: photorealistic-natural. Asset: landscape 1536x1024 home-cooking recipe photo, entire dish clear and centered with generous margins, natural window daylight, light ceramic plate on pale table, simple linen napkin, authentic homemade texture. Slight overhead angle, sharp food detail. No text, no hands, no logos, no collage. Subject: ",
+      "subjects": {
+        "egg-cheese-toast": "Two thick bread slices, each with a fully cooked egg in a cut-out hole, lightly melted grated cheese over the toast, fresh red tomato wedges alongside. Eggs fully set, no runny yolk.",
+        "mushroom-omelet": "A folded golden omelet with visible sauteed sliced button mushrooms and melted cheese, cut edge revealing mushrooms. No bacon, no exotic garnishes.",
+        "zucchini-omelet": "A round fully cooked soft omelet topped and filled with small zucchini cubes and halved red cherry tomatoes, cut wedge showing firm egg center. No mushrooms or meat."
+      }
+    },
+    {
+      "common": "Use case: photorealistic-natural. Asset: landscape 1536x1024 home-cooking recipe photo, entire dish centered and clear with generous margin, natural window daylight, pale table, simple ceramic plate, honest homemade texture, slightly overhead view. No text, no hands, no logos, no collage. Subject: ",
+      "subjects": {
+        "belgian-waffles": "Four golden thick Belgian waffles with deep square pockets, a tiny pat of butter melting on top, no fruit, no syrup, no powdered sugar. Clearly fluffy baked waffles.",
+        "potato-waffles": "Four savory grated-potato-and-cheese waffles with deep square pockets and crisp golden-brown irregular potato strands, one broken edge exposing cooked potato interior. No sweet toppings, no fruit, no syrup.",
+        "zucchini-waffles": "Four savory zucchini-and-cheese waffles, clearly green zucchini flecks and chopped dill visible within golden waffle grid, small bowl of plain white yogurt alongside. No sweet toppings, no fruit."
+      }
+    },
+    {
+      "common": "Use case: photorealistic-natural. Asset: landscape 1536x1024 home-cooking recipe photo, entire dish centered and legible with generous margins, natural window daylight, pale table, simple home kitchen styling, honest homemade texture, slight overhead angle, crisp realistic food detail. No text, hands, logos or collage. Subject: ",
+      "subjects": {
+        "overnight-oats": "Two short clear glass jars of thick overnight oatmeal mixed with plain yogurt, each topped with freshly sliced banana and a very light sprinkle of cinnamon. Clearly visible rolled oats through glass, not a smoothie. No other fruits.",
+        "millet-porridge": "A shallow light ceramic bowl of creamy golden-yellow millet porridge cooked in milk, with clearly visible tiny millet grains and a small pat of butter. Plain porridge, no berries, no pumpkin, no nuts.",
+        "milk-pancakes": "A stack of thin Russian milk blini pancakes on a plain ceramic plate, a couple folded into loose quarters revealing their delicate thin edges and lacy browned surface. No thick American pancakes, no fruit, no syrup, no fillings."
+      }
+    },
+    {
+      "common": "Use case: photorealistic-natural. Asset: landscape 1536x1024 home-cooking recipe photo, entire dish centered and clear with generous margins, natural window daylight, pale table, simple light ceramic plate, honest homemade texture, slight overhead angle, realistic sharp food detail. No text, no hands, no logos, no collage. Subject: ",
+      "subjects": {
+        "kefir-fritters": "A plate of small thick Russian kefir oladya fritters, about eight irregular round puffed pancakes with golden brown surfaces and soft pale sides, one broken showing fluffy cooked center. No thin crepes, no waffles, no syrup, no fruit.",
+        "cottage-cheese-casserole": "Two thick slices of baked Russian cottage cheese casserole with small mixed berries baked inside, a larger round casserole behind them. Visible tender curd texture, pale golden top, deep purple berry specks, not a cheesecake crust, no powdered sugar or frosting."
+      }
+    }
+  ]
+}

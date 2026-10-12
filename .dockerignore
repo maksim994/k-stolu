@@ -1,0 +1,15 @@
+node_modules
+.next
+.env*
+.local
+.git
+.impeccable
+test-results
+playwright-report
+uploads
+backups
+coverage
+*.tsbuildinfo
+*.dump
+*.pem
+*.key

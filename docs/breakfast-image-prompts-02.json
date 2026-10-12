@@ -1,0 +1,47 @@
+{
+  "mode": "built-in image_gen",
+  "useCase": "photorealistic-natural",
+  "sharedPrompt": "Use case: photorealistic-natural. Asset type: illustrative food photograph for a Russian home cooking recipe catalog. Photorealistic editorial photograph of an ordinary homemade breakfast, landscape 3:2. Clearly visible food on a simple light ceramic plate or bowl, 45 degree overhead view, light neutral linen or stone tabletop, soft natural daylight, realistic food texture. Comfortable margins, important food inside central 80 percent for responsive crops. No people, hands, utensils, text, logos, watermarks, packaging or decorative props. No side dishes, icing, syrups or extra garnish unless explicitly named in Subject. Show the actual food rather than an atmospheric scene.",
+  "images": [
+    {
+      "id": "egg-cucumber-sandwich",
+      "subject": "Two homemade sandwiches made with four slices of ordinary wholegrain bread, cut into halves. Visible filling of finely chopped fully hard-boiled eggs mixed with thick plain yogurt and tiny dill flecks, thin fresh green cucumber slices. No mayonnaise, lettuce, meat, tomato or side salad. Cross sections clearly visible on a light plate."
+    },
+    {
+      "id": "lavash-egg-cheese",
+      "subject": "Two modest rectangular folded thin lavash envelopes, lightly crisp golden pan-browned surfaces. One cut diagonally to reveal fully cooked pale yellow scrambled egg, melted cheese and fine dill filling. Thin flatbread folded layers, not puff pastry or tortilla rolls, no sauces or side dishes."
+    },
+    {
+      "id": "pumpkin-millet-porridge",
+      "subject": "A bowl of soft creamy yellow millet milk porridge with small cooked orange pumpkin cubes dispersed throughout. Tiny cooked millet grains visible, modest natural sheen from butter stirred in, no butter cube, sugar, nuts, seeds, garnish or extra fruit."
+    },
+    {
+      "id": "rice-raisin-porridge",
+      "subject": "A bowl of soft creamy white round-grain rice milk porridge with scattered dark raisins cooked into it. Distinct soft plump rice grains, modest ordinary homemade appearance, no cinnamon dust, nuts, sugar, fruit or butter cube on top."
+    },
+    {
+      "id": "semolina-banana-porridge",
+      "subject": "A shallow light bowl of smooth pale ivory semolina milk porridge with ripe banana mashed and stirred in. Smooth thick texture, faint banana flecks only, no banana slices, no nuts, no honey, no cinnamon and no decorative toppings."
+    },
+    {
+      "id": "oat-pancake-cottage-tomato",
+      "subject": "Two golden round oat and egg pancakes folded in half, one slightly open to show white cottage cheese curds, thin fresh red tomato slices and fine dill. Visible fine oat texture in fully cooked pancake, ordinary savory breakfast on a plate. No lettuce, avocado, sauce or extra toppings."
+    },
+    {
+      "id": "cabbage-cheese-waffles",
+      "subject": "Four thick square savory Belgian-style cabbage and cheese waffles on a light plate. Golden brown grid crust, one broken edge shows fully baked tender pale crumb with very fine soft white cabbage shreds and small melted cheese flecks. No green herbs, tomato, fried egg, sauce or decorative cabbage outside the waffles."
+    },
+    {
+      "id": "carrot-apple-waffles",
+      "subject": "Four thick square homemade carrot and apple waffles, warm golden grid crust with tiny orange carrot flecks. One cut edge shows fully baked tender lightly orange crumb, finely dispersed apple. No sugar dust, syrup, cream, butter cube, nuts or decorative apple slices."
+    },
+    {
+      "id": "bean-pepper-shakshuka",
+      "subject": "Homemade shakshuka in one ordinary shallow ceramic serving dish: thick red tomato sauce with visible red sweet pepper cubes, onion and white canned beans, four fully cooked eggs with firm opaque whites and fully set yolks. No runny yolk, herbs, bread, feta or olives. Show the whole modest dish clearly."
+    },
+    {
+      "id": "cottage-banana-walnut-bowl",
+      "subject": "A modest bowl of white cottage cheese curds mixed with plain yogurt, topped with ripe banana circles and coarsely chopped walnut kernels. Simple natural breakfast, no honey drizzle, granola, berries, mint, seeds, syrups or decorative props."
+    }
+  ]
+}

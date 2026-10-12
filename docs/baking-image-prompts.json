@@ -1,0 +1,63 @@
+{
+  "mode": "built-in image_gen",
+  "useCase": "photorealistic-natural",
+  "sharedPrompt": "Use case: photorealistic-natural. Asset type: illustrative food photograph for a Russian home cooking recipe catalog. Create a photorealistic editorial food photograph, landscape 3:2. A single ordinary homemade baked dish, clearly visible on a simple light ceramic plate or baking dish with comfortable margins, viewed from a 45 degree overhead angle. Light neutral linen or stone tabletop, soft daylight, realistic crust and crumb, natural colors. Home cooking, no glossy advertising. Important food stays inside the central 80 percent for responsive cropping. No people, hands, utensils, packaging, text, logos or watermarks. No side dishes, frosting, powdered sugar, decorative herbs or other toppings unless explicitly listed in Subject. Show the actual ingredients and structure, not atmospheric props.",
+  "images": [
+    {
+      "id": "apple-kefir-cake",
+      "subject": "A modest round golden kefir apple cake, about 20 cm diameter, with one wedge removed and placed beside it on the same plate, exposing soft pale crumb with small apple cubes baked inside. Flat lightly domed surface, no arranged apple fan, no powdered sugar or icing."
+    },
+    {
+      "id": "banana-oat-muffins",
+      "subject": "Eight small homemade banana and fine oat muffins, golden rounded tops, visible fine oat crumb, three with simple beige paper liners and others unwrapped. One muffin broken open shows fully baked soft banana crumb, no banana slices on top, chocolate, nuts or icing."
+    },
+    {
+      "id": "carrot-walnut-cake",
+      "subject": "A plain round homemade carrot walnut cake, no frosting or glaze, one wedge removed exposes moist orange-flecked crumb and small walnut pieces. Golden brown crust, low 20 cm cake on white plate, no decorative whole carrots or nuts scattered outside."
+    },
+    {
+      "id": "cottage-cheese-cookies",
+      "subject": "A plate of sixteen small round softly domed cottage cheese cookies, modest golden edges and pale golden centers, rustic hand-formed flattened rounds, one broken cookie showing a fully baked soft curd crumb. No sugar coating, icing, jam or elaborate shapes."
+    },
+    {
+      "id": "oat-raisin-cookies",
+      "subject": "Sixteen small rustic round oatmeal raisin cookies piled loosely on a light plate, golden baked oats with distinct dark raisins inside, crisp browned edges. No chocolate chips, nuts or decorative cinnamon sticks."
+    },
+    {
+      "id": "cheese-herb-muffins",
+      "subject": "Eight small savory cheese and herb muffins, golden tops with browned cheese flecks and finely chopped green dill baked inside. One cut muffin reveals tender fully cooked pale crumb with cheese and dill. No bacon, tomato, frosting or extra garnish."
+    },
+    {
+      "id": "cabbage-pour-pie",
+      "subject": "A round golden Russian kefir batter pie with cooked shredded white cabbage and onion filling, one wedge removed clearly showing soft fully baked pale batter layers enclosing a generous middle layer of cabbage. No lattice, puff pastry, eggs in filling or decorative herbs."
+    },
+    {
+      "id": "tuna-potato-puff-pie",
+      "subject": "A modest rectangular closed puff pastry pie, golden flaky egg-washed top with three steam slits, one square piece removed exposing a filling of cooked potato cubes, flaky canned tuna and cooked onion. No raw fish, cheese, lattice or decorative garnish."
+    },
+    {
+      "id": "chicken-mushroom-puff-pie",
+      "subject": "A rectangular golden closed puff pastry pie with a few simple steam slits. One cut square beside it on the same plate reveals cooked chicken pieces, sliced cooked button mushrooms, onion and a little melted cheese between crisp pastry layers. No cream sauce puddle, lattice or herbs."
+    },
+    {
+      "id": "tomato-cheese-puff-tarts",
+      "subject": "Eight small rectangular open puff pastry tarts, raised golden borders, melted cheese in the center under one or two thin red tomato circles each and a tiny amount of dried oregano. Crisp flaky bases, no fresh basil or olives."
+    },
+    {
+      "id": "lavash-cheese-pie",
+      "subject": "A low round baked lavash, cottage cheese and cheese pie, cut into four wedges, one slightly separated. Rustic crinkled golden top, cross-section reveals folded torn thin flatbread pieces bound in fully set pale egg and curd filling with small dill flecks. No puff pastry or tomato garnish."
+    },
+    {
+      "id": "simple-cheese-pizza",
+      "subject": "One ordinary homemade thin-crust 30 cm pizza on a light plate, cut into eight slices with one slightly separated. Golden lightly puffy rim, tomato passata, melted pale yellow cheese and thin red tomato circles with a little dried oregano. No basil leaves, olives, pepperoni or charred black crust."
+    },
+    {
+      "id": "pumpkin-muffins",
+      "subject": "Eight simple homemade pumpkin cinnamon muffins with warm golden-orange crumb and rounded lightly cracked tops. One muffin broken open reveals finely grated baked pumpkin dispersed in soft fully baked crumb. No icing, pumpkin seeds, nuts or decorative pumpkin props."
+    },
+    {
+      "id": "berry-oat-crumble",
+      "subject": "Mixed cooked red and dark berries under a coarse golden oat and butter crumble crust in a simple square ceramic baking dish. A small corner portion has been lifted to reveal bubbling thick berry juices and fruit under the crumb. No ice cream, yogurt, mint, nuts or spoon."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "mode": "built-in image_gen",
+  "useCase": "photorealistic-natural",
+  "sharedPrompt": "Use case: photorealistic-natural. Asset type: illustrative food photograph for a Russian home cooking recipe catalog. Photorealistic editorial food photo, landscape 3:2, simple homemade snack clearly visible on light ceramic plate or bowl. 45 degree overhead view, soft daylight, neutral light stone or linen tabletop, natural colors, real homemade textures. Comfortable margin, all important food in central 80 percent for responsive cropping. No people, hands, utensils, labels, logos, watermarks, packaging or decorative props. Show only named ingredients, no extra toppings or side dishes. The dish is the main subject, not an atmospheric scene.",
+  "images": [
+    {
+      "id": "tuna-cucumber-lavash-roll",
+      "subject": "Two simple thin pale lavash wraps cut in halves, four short pieces on a plate. Cross sections clearly show flaky canned tuna, thin cucumber matchsticks, tiny dill flecks and a modest thick plain yogurt dressing. No lettuce, carrot, cheese, raw fish or toasted surface."
+    },
+    {
+      "id": "cottage-cucumber-dip",
+      "subject": "A small bowl of thick white cottage cheese dip with finely diced cucumber and tiny dill flecks, with two small plain bread slices and a few cucumber sticks alongside on one plate. No crackers, lemon garnish, tomatoes or oil drizzle."
+    },
+    {
+      "id": "white-bean-lemon-spread",
+      "subject": "A small bowl of rustic pale white bean spread mashed with a fork, tiny dill flecks, modest glossy oil and lemon mixed in, served with two small plain bread slices on one plate. Coarse homemade texture, not hummus. No whole lemon, chickpeas, tahini, paprika topping or extra vegetables."
+    },
+    {
+      "id": "yogurt-apple-walnut-cup",
+      "subject": "A small simple bowl of thick plain white yogurt topped with diced red-skinned apple, a few chopped walnut pieces and a faint cinnamon dusting. No granola, honey drizzle, berries, banana or decorative cinnamon sticks."
+    },
+    {
+      "id": "banana-peanut-sandwich",
+      "subject": "Two modest closed sandwiches, each made with two small soft plain bread slices, thin light tan peanut butter and round banana slices. Sandwiches cut diagonally, cross sections visible. No toasted marks, honey, chocolate, nuts on the plate or extra fruit."
+    },
+    {
+      "id": "cheese-tomato-hot-toast",
+      "subject": "Four small open bread toasts topped with thin red tomato slices and melted pale yellow cheese, tiny oregano flecks. Lightly golden edges, ordinary oven-made snack on a plate. No meat, olives, basil leaves, ketchup or extra garnish."
+    },
+    {
+      "id": "bean-pepper-lavash-pockets",
+      "subject": "Two flat golden pan-toasted thin lavash envelopes, each cut in half, with visible filling of mashed white beans, finely diced red sweet pepper and melted pale yellow cheese. Four modest pieces on a plate, no chicken, egg, leafy salad, sour cream or sauces."
+    },
+    {
+      "id": "roasted-paprika-chickpeas",
+      "subject": "A small shallow bowl of oven-roasted ready chickpeas lightly coated with red paprika and oil, subtly browned natural uneven surfaces, soft plump bean shape, not hard dry packaged snacks. No green herbs, lemon, other nuts, popcorn or extra garnish."
+    }
+  ]
+}

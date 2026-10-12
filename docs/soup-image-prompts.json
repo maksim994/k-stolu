@@ -1,0 +1,59 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "photorealistic-natural",
+  "sharedPrompt": "Create a realistic editorial food photograph for a Russian home-cooking recipe catalog. Landscape 3:2 composition. One ordinary ceramic soup bowl, fully visible and centered with generous margin, on a light neutral kitchen table. Soft natural window light, accurate food colors and appetizing real texture, slightly elevated three-quarter camera angle. Food is the main subject and clearly inspectable; no people, hands, text, logos, watermark, extra side dishes, cutlery covering food, or raw ingredients scattered around. Not a collage. Depict only the cooked dish described below, without adding unlisted garnishes or ingredients.",
+  "images": [
+    {
+      "id": "chicken-borscht",
+      "subject": "Homemade chicken borscht: deep beet-red broth with visible fine shredded beet and cabbage, small potato cubes, carrot and modest pieces of cooked chicken. A little chopped dill is allowed. No sour cream, no bread, no beans."
+    },
+    {
+      "id": "fresh-cabbage-soup",
+      "subject": "Fresh cabbage vegetable soup, shchi: light clear pale golden broth, thin soft white cabbage strips, small potato cubes, orange carrot and small red tomato pieces. Modest chopped dill. No meat, sour cream or mushrooms."
+    },
+    {
+      "id": "chicken-pickle-soup",
+      "subject": "Chicken rassolnik: light golden broth with visible pearl barley grains, small diced pickled cucumber, potato and carrot, modest cooked chicken chunks. Realistic unblended soup. No sour cream, lemon, olives or dill garnish."
+    },
+    {
+      "id": "chicken-pea-soup",
+      "subject": "Thick rustic split-pea soup with cooked chicken: naturally pale yellow-green partly broken-down peas, small carrot and potato pieces and modest chicken chunks. Not smooth puree, not whole green garden peas. No bacon, smoked meat, croutons or garnish."
+    },
+    {
+      "id": "meatball-buckwheat-soup",
+      "subject": "Clear golden soup with small round beef meatballs, visible brown buckwheat grains, small potato cubes, carrots and onion. Several small meatballs visibly distinct. No noodles, rice, sour cream or garnish."
+    },
+    {
+      "id": "tomato-fish-soup",
+      "subject": "Homemade white fish and tomato soup: light tomato-red broth with modest boneless pieces of white fish, potato cubes, carrots and onion. A little chopped dill. No seafood shells, prawns, mussels, lemon slices or cream."
+    },
+    {
+      "id": "mushroom-barley-soup",
+      "subject": "Rustic clear mushroom and pearl barley soup: golden brown broth with cooked sliced cultivated button mushrooms, visible pearl barley grains, small potatoes, carrots and onions. Not a creamy or blended soup. No meat, sour cream or garnish."
+    },
+    {
+      "id": "pumpkin-carrot-soup",
+      "subject": "Smooth thick pumpkin and carrot puree soup, vivid natural pumpkin orange with a velvety surface. One spoon-sized small swirl of plain white yogurt is allowed at the center. No pumpkin seeds, nuts, croutons, herbs or other toppings."
+    },
+    {
+      "id": "broccoli-cream-soup",
+      "subject": "Smooth broccoli, potato and cream puree soup, soft natural medium green, thick velvety texture. Fully blended soup, no whole broccoli garnish, no seeds, oil drizzle, cheese, croutons or other toppings."
+    },
+    {
+      "id": "mushroom-cream-soup",
+      "subject": "Smooth creamy button mushroom and potato puree soup with cream, naturally pale taupe mushroom color and fine speckled texture. Fully blended, no whole mushroom garnish, no herbs, cream swirl, croutons or other toppings."
+    },
+    {
+      "id": "tomato-bean-soup",
+      "subject": "Thick unblended tomato soup with visible cooked canned white and red beans, finely cooked carrot and onion in a rich red tomato broth. Homely and hearty. No pasta, meat, cheese, herbs or toppings."
+    },
+    {
+      "id": "vegetable-pasta-soup",
+      "subject": "Vegetable soup with small elbow pasta, canned white beans, zucchini cubes, thin cabbage, carrots and tomatoes in a light tomato broth. Clearly visible small pasta and modest vegetables, not a dry pasta dish. No meat, cheese or garnish."
+    },
+    {
+      "id": "chicken-cheese-soup",
+      "subject": "Unblended chicken and processed-cheese soup: pale creamy golden broth, visible small cooked chicken chunks, potato cubes, finely grated cooked carrot and onion. A little chopped dill is allowed. No shredded cheese topping, noodles, mushrooms or croutons."
+    }
+  ]
+}

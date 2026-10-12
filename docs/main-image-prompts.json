@@ -1,0 +1,55 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "photorealistic-natural",
+  "sharedPrompt": "Create one realistic editorial food photograph for a Russian home-cooking recipe catalog. Landscape 3:2 composition, slightly elevated three-quarter camera angle. The cooked dish is fully visible and centered with generous margins on an ordinary ceramic plate or simple serving dish on a light neutral kitchen table. Soft natural window light, accurate food colors, appetizing real texture. Food is clearly inspectable. No people, hands, text, logos, watermarks, collage, extra side dishes, raw ingredient arrangements, cutlery covering food, or unlisted garnish. Depict only the cooked dish described below.",
+  "images": [
+    {
+      "id": "chicken-bulgur",
+      "subject": "Cooked coarse bulgur with modest diced chicken breast, small orange carrot cubes, soft red bell pepper strips and onion, all mixed together in a shallow ceramic bowl. The bulgur must clearly be irregular angular broken wheat kernels with tan bran edges, roughly 3–5 mm cooked, not smooth round spheres. Visibly cracked wheat with natural uneven grain sizes. Absolutely no pearl couscous, spherical grains, rice or quinoa. No herb garnish, nuts, tomatoes or sauce on top."
+    },
+    {
+      "id": "turkey-oat-cutlets",
+      "subject": "Four modest homemade baked turkey and oatmeal patties on a plain ceramic plate, softly golden with a natural slightly irregular shape, about 1.5 cm thick, not breaded. No dark char, no cheese, sauce, herbs, salad, potatoes or other garnish. This is a plate of patties only."
+    },
+    {
+      "id": "beef-buckwheat",
+      "subject": "Rustic cooked brown buckwheat with crumbled ground beef, grated cooked orange carrots and onion mixed throughout, in a shallow ceramic bowl. Clearly distinct triangular buckwheat grains. No mushrooms, tomatoes, herbs or toppings."
+    },
+    {
+      "id": "chicken-mushroom-pasta",
+      "subject": "Short penne pasta with modest cooked chicken breast chunks and sliced cultivated button mushrooms in a thin coating of pale creamy sauce, on a ceramic plate. Not swimming in sauce. No cheese, parsley, herbs, tomato or other garnish."
+    },
+    {
+      "id": "tuna-tomato-pasta",
+      "subject": "Short rigatoni pasta coated in red tomato sauce with clearly visible flaked cooked canned tuna and finely cooked onion, on a ceramic plate. Modest dried oregano specks are allowed. No cheese, olives, capers, basil or extra garnish."
+    },
+    {
+      "id": "fish-tomato-stew",
+      "subject": "Modest boneless white fish chunks gently cooked in tomato sauce with soft red bell pepper strips, thin carrot half rounds and onion, in a shallow serving bowl. A little chopped dill is allowed. No rice, potatoes, pasta, cream, lemon slices, shells or other seafood."
+    },
+    {
+      "id": "stuffed-peppers",
+      "subject": "Four whole upright red and yellow bell peppers stuffed with cooked ground beef and white rice, in a simple shallow serving dish with tomato, onion and carrot sauce. Tops removed so the beef and rice filling is visible. Peppers tender and homely, not charred. No cheese, sour cream or herb garnish."
+    },
+    {
+      "id": "lazy-cabbage-beef",
+      "subject": "Homemade lazy cabbage rolls as a loose mixed skillet dish, served in a shallow ceramic bowl: tender shredded white cabbage, crumbled cooked ground beef, distinct white rice grains, finely cooked carrots and onion in a modest tomato sauce. Not rolled cabbage leaves, not meatballs. No sour cream or garnish."
+    },
+    {
+      "id": "potato-beef-casserole",
+      "subject": "A neatly cut serving of potato and ground beef casserole on a ceramic plate. Visible layers of pale mashed potato below and above a generous ground beef filling with a few green peas and onion. Thin lightly golden melted cheese crust on top. No herbs, sauce or side garnish. Show the cross section clearly."
+    },
+    {
+      "id": "lentil-pumpkin-curry",
+      "subject": "Thick rustic red lentil and pumpkin curry in a ceramic bowl: softened orange-red lentils, tender small orange pumpkin cubes, thin carrots and onion in a thick red tomato base with mild yellow curry tint. Not smooth blended soup and not runny. No coconut milk, cream, rice, cilantro or garnish."
+    },
+    {
+      "id": "chickpea-zucchini-stew",
+      "subject": "Thick unblended stew of cooked chickpeas, tender zucchini cubes with green skin, soft red bell pepper strips and finely cooked onion in rich red tomato sauce, in a shallow ceramic bowl. Chickpeas and zucchini clearly visible. No meat, cheese, rice, spinach or herb garnish."
+    },
+    {
+      "id": "eggplant-bean-boats",
+      "subject": "Four baked lengthwise eggplant halves with intact dark purple skin and stems, in a simple baking dish. Each boat is filled with cooked white beans mixed with tender eggplant flesh, onion and tomato sauce, under a modest thin layer of lightly golden melted cheese; some beans remain visible. No meat, herb garnish, nuts or side dishes."
+    }
+  ]
+}

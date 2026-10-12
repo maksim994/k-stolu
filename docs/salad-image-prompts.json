@@ -1,0 +1,63 @@
+{
+  "mode": "built-in image_gen",
+  "useCase": "photorealistic-natural",
+  "sharedPrompt": "Use case: photorealistic-natural. Asset type: illustrative food image for a Russian home cooking recipe catalog. Create a photorealistic editorial food photograph, landscape 3:2 composition. One ordinary home-prepared dish in a light ceramic bowl or on a white plate, fully visible with comfortable margins, viewed from a 45-degree overhead angle, filling most of the frame. Light neutral linen or stone table, soft natural daylight, realistic textures and true ingredient colors, inviting but not glossy advertising. Simple serving, no unrelated side dishes or ingredients. No people, hands, utensils, packaging, text, watermark or logos. Keep all important food inside the central 80 percent for responsive cropping. Depict only the exact prepared ingredients in the subject description, no extra garnishes.",
+  "images": [
+    {
+      "id": "cabbage-carrot-apple-salad",
+      "subject": "Thinly shredded white cabbage with grated orange carrot and thin unpeeled apple matchsticks, lightly dressed with lemon and oil. Crisp pale green and orange slaw, no herbs, nuts or mayonnaise."
+    },
+    {
+      "id": "radish-cucumber-egg-salad",
+      "subject": "Thin red-skinned radish half-moons, cucumber half-moons, small pieces of fully hard-boiled eggs and finely chopped fresh dill in a light plain yogurt dressing. Visible pale yellow firm yolks, fresh green cucumber and vivid radish edges. No mayonnaise."
+    },
+    {
+      "id": "tuna-bean-salad",
+      "subject": "Large white canned beans, flaked cooked canned tuna, small red tomato wedges, very thin white onion slices and chopped parsley lightly dressed with lemon and oil. Chunky rustic mixed salad, no lettuce, eggs or mayonnaise."
+    },
+    {
+      "id": "chickpea-pepper-salad",
+      "subject": "Cooked chickpeas with diced red sweet bell pepper, diced cucumber and chopped parsley, lightly dressed with lemon and oil. Distinct beige chickpeas, red pepper and green cucumber, no cheese, meat or tomatoes."
+    },
+    {
+      "id": "beet-feta-walnut-salad",
+      "subject": "Cooked beetroot cubes dressed with lemon and oil, topped with crumbly white feta, chopped walnut kernels and a little parsley. Clearly visible deep burgundy beet cubes, irregular feta crumbles and walnut pieces. No lettuce, pomegranate or balsamic drizzle."
+    },
+    {
+      "id": "vinaigrette",
+      "subject": "Russian vinaigrette salad: small cubes of cooked beetroot, boiled potato and carrot with pickled cucumber, canned green peas and a little finely chopped white onion, dressed with oil. Mixed rustic diced salad, lightly beet-stained potatoes, no cabbage, beans, herbs or mayonnaise."
+    },
+    {
+      "id": "chicken-yogurt-salad",
+      "subject": "Cooked chicken breast pieces with cucumber half-moons, torn green lettuce and a little chopped dill, lightly dressed with plain yogurt and lemon. White tender cooked chicken, crisp green lettuce, no croutons, tomatoes or grated cheese."
+    },
+    {
+      "id": "chicken-olivier",
+      "subject": "Russian Olivier salad with evenly diced boiled potato, carrot, cooked chicken breast, hard-boiled egg, pickled cucumber and canned green peas, coated in a modest creamy mayonnaise dressing. Home-style mixed salad in a plain bowl, no sausage, onions, lettuce or decorative garnish."
+    },
+    {
+      "id": "crab-corn-salad",
+      "subject": "Mixed salad of red-and-white ready-to-eat surimi crab stick pieces, bright yellow canned corn, diced cucumber, fully hard-boiled egg pieces and finely chopped dill with modest mayonnaise dressing. No rice, real crab claws, shrimp or lettuce."
+    },
+    {
+      "id": "mimosa-tuna-salad",
+      "subject": "Russian layered Mimosa salad, a low round home-style mound on a white plate, topped entirely with finely grated firm yellow egg yolk. A modest slice removed exposes horizontal layers of grated boiled potato, canned tuna, hard-boiled egg white, cooked carrot, cheese and thin mayonnaise. No herbs, flowers, onion or elaborate decoration."
+    },
+    {
+      "id": "warm-potato-mushroom-salad",
+      "subject": "Warm rustic salad of boiled potato chunks, browned cooked sliced button mushrooms, soft cooked onion strips, pickled cucumber pieces and chopped parsley with a light oil dressing. No meat, cheese, sour cream or lettuce."
+    },
+    {
+      "id": "bulgur-roasted-vegetable-salad",
+      "subject": "Coarse cooked bulgur wheat, recognizable uneven angular cracked wheat kernels with tan bran, mixed with roasted zucchini chunks and roasted red bell pepper pieces, topped with feta crumbles and chopped parsley, oil and lemon dressing. No couscous balls, rice, tomatoes, eggplant or chickpeas."
+    },
+    {
+      "id": "lentil-cucumber-salad",
+      "subject": "Cooked green-brown whole lentils retaining their round flat shape, mixed with diced cucumber, diced red tomato, thin white onion slivers and chopped parsley, lightly dressed with lemon and oil. No red split lentils, rice, feta, lettuce or meat."
+    },
+    {
+      "id": "carrot-cheese-garlic-salad",
+      "subject": "Finely grated fresh orange carrot and grated pale yellow cheese, mixed together with a light plain yogurt and garlic dressing. Small rustic creamy orange shredded salad in a simple ceramic bowl. No herbs, nuts, raisins, eggs or mayonnaise."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "mode": "built-in image_gen",
+  "useCase": "photorealistic-natural",
+  "sharedPrompt": "Use case: photorealistic-natural. Asset type: illustrative food photograph for a Russian home cooking recipe catalog. Photorealistic editorial food photo, landscape 3:2, ordinary homemade salad clearly visible in one simple light ceramic serving bowl or plate. 45 degree overhead angle, light neutral linen or stone tabletop, soft daylight, realistic ingredients and natural colors. Comfortable margins, important food stays inside central 80 percent for responsive cropping. No people, hands, utensils, text, logos, packaging, watermarks or decorative props. No extra toppings, dressings or side dishes unless explicitly named in Subject. Actual food is the main subject, not an atmospheric scene.",
+  "images": [
+    {
+      "id": "chicken-bean-tomato-salad",
+      "subject": "A generous simple salad of cooked white chicken breast chunks, white canned beans, fresh red tomato pieces, green cucumber chunks and finely chopped dill, lightly dressed with oil and lemon, no mayonnaise or lettuce. Ingredients evenly mixed, not separate decorative piles."
+    },
+    {
+      "id": "warm-chicken-broccoli-salad",
+      "subject": "Warm salad of fully cooked chicken breast chunks and tender bright green broccoli florets with fresh red tomato pieces, modest plain yogurt dressing lightly coating some pieces and a little finely chopped dill. No pasta, rice, croutons, nuts or extra garnish."
+    },
+    {
+      "id": "tuna-potato-egg-salad",
+      "subject": "A mixed salad of cooked potato cubes, flaky canned tuna, chopped fully hard-boiled eggs, canned green peas and fresh cucumber pieces, lightly coated with plain yogurt and tiny dill flecks. No mayonnaise puddle, lettuce, olives or whole decorative egg halves."
+    },
+    {
+      "id": "pasta-tuna-corn-salad",
+      "subject": "A homemade pasta salad with small cooked short spiral pasta, flaky canned tuna, yellow corn kernels, red sweet pepper cubes and tiny dill flecks, lightly coated with plain yogurt dressing. No olives, raw fish, cheese, cucumber or lettuce."
+    },
+    {
+      "id": "warm-lentil-pumpkin-salad",
+      "subject": "Warm cooked green-brown lentils and soft roasted orange pumpkin cubes on a modest bed of green lettuce, scattered with crumbled white feta and lightly dressed with lemon and oil. No beetroot, seeds, nuts or extra garnish."
+    },
+    {
+      "id": "warm-eggplant-chickpea-salad",
+      "subject": "Soft roasted aubergine cubes with visible purple skin and beige cooked chickpeas on green lettuce, mixed with fresh red tomato pieces, tiny dill flecks and light lemon oil dressing. No cheese, yogurt, nuts, pomegranate or extra herbs."
+    },
+    {
+      "id": "peking-chicken-corn-salad",
+      "subject": "A mixed salad with finely sliced pale green and white napa cabbage, fully cooked white chicken breast chunks, yellow corn kernels and thin fresh cucumber pieces. Light plain yogurt dressing, airy crunchy texture, no croutons, carrot, cheese or mayonnaise puddle."
+    },
+    {
+      "id": "chicken-prune-walnut-salad",
+      "subject": "A modest creamy mixed Russian festive salad of cooked chicken breast pieces, thin dark prune strips, coarsely grated pale yellow cheese and chopped walnut kernels, lightly bound with mayonnaise and yogurt. No layers, egg, beetroot, cucumber, lettuce or decorative whole walnuts outside the bowl."
+    },
+    {
+      "id": "herring-beet-potato-salad",
+      "subject": "A simple mixed salad of ready salted herring fillet pieces, cooked dark ruby beet cubes, cooked potato cubes, chopped pickled cucumbers, tiny onion pieces and fine dill with light oil dressing. Not layered herring under a fur coat, no mayonnaise, carrot, egg or lettuce."
+    },
+    {
+      "id": "chicken-pineapple-cheese-salad",
+      "subject": "A modest creamy mixed salad of fully cooked chicken breast pieces, drained golden canned pineapple cubes, pale yellow grated cheese and yellow corn kernels, lightly coated with mayonnaise and plain yogurt. No nuts, lettuce, raisins, egg, cucumber or decorative pineapple crown."
+    },
+    {
+      "id": "cabbage-corn-cucumber-salad",
+      "subject": "Crunchy finely shredded white cabbage mixed with fresh green cucumber matchsticks, yellow corn kernels and fine dill, very light plain yogurt dressing. No carrot, apple, egg, chicken, purple cabbage or decorative garnish."
+    },
+    {
+      "id": "bean-cheese-crouton-salad",
+      "subject": "A homemade white bean salad with fresh red tomato pieces, coarsely grated pale yellow cheese, small golden baked bread croutons added just before serving, tiny dill flecks and light plain yogurt garlic dressing. No bacon, lettuce, eggs, olives or decorative bread slices."
+    }
+  ]
+}
