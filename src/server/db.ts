@@ -4,7 +4,7 @@ import { pgTable, text, jsonb, timestamp } from "drizzle-orm/pg-core";
 import { eq } from "drizzle-orm";
 import { seedIngredients, seedRecipes, seedCollections } from "../data/seed";
 import { HttpError } from "./http";
-import { syncSeed } from "./seed-sync";
+import { enrichLegacyRecipe, syncSeed } from "./seed-sync";
 import {
   bundleSchema,
   type Catalog,
@@ -70,7 +70,8 @@ export async function initialize() {
             ].includes(i.id)
           ) {
             await client.query(
-              "UPDATE ingredients SET data = $2::jsonb WHERE id = $1 AND data = $3::jsonb",
+              `UPDATE ingredients SET data = $2::jsonb WHERE id = $1 AND data = $3::jsonb
+               AND NOT EXISTS (SELECT 1 FROM seed_snapshots WHERE entity_type='ingredients' AND id=$1)`,
               [
                 i.id,
                 JSON.stringify(i),
@@ -79,24 +80,8 @@ export async function initialize() {
             );
           }
         }
-        for (const r of seedRecipes) {
-          const { storage, nutrition, ...original } = r;
-          if (storage) {
-            // Enrich only untouched starter recipes; edited recipes need their own guidance.
-            await client.query(
-              `UPDATE recipes SET data = jsonb_set(data, '{storage}', $2::jsonb), updated_at = now()
-               WHERE id = $1 AND NOT (data ? 'storage') AND data - 'nutrition' = $3::jsonb`,
-              [r.id, JSON.stringify(storage), JSON.stringify(original)],
-            );
-          }
-          if (enrichCatalog && nutrition) {
-            await client.query(
-              `UPDATE recipes SET data = jsonb_set(data, '{nutrition}', $2::jsonb), updated_at = now()
-               WHERE id = $1 AND NOT (data ? 'nutrition') AND data - 'storage' = $3::jsonb`,
-              [r.id, JSON.stringify(nutrition), JSON.stringify(original)],
-            );
-          }
-        }
+        for (const r of seedRecipes)
+          await enrichLegacyRecipe(client, r, enrichCatalog);
         if (enrichCatalog)
           await client.query(
             "INSERT INTO schema_migrations(version) VALUES (2)",

@@ -4,6 +4,26 @@ import type { PoolClient } from "pg";
 type Table = "ingredients" | "recipes" | "collections";
 type Entry = { id: string; slug?: string; status?: string };
 
+export async function enrichLegacyRecipe<
+  T extends Entry & { storage?: unknown; nutrition?: unknown },
+>(client: PoolClient, recipe: T, enrichNutrition: boolean) {
+  const { storage, nutrition, ...original } = recipe;
+  if (storage)
+    await client.query(
+      `UPDATE recipes SET data=jsonb_set(data,'{storage}',$2::jsonb),updated_at=now()
+       WHERE id=$1 AND NOT (data ? 'storage') AND data - 'nutrition'=$3::jsonb
+       AND NOT EXISTS (SELECT 1 FROM seed_snapshots WHERE entity_type='recipes' AND id=$1)`,
+      [recipe.id, JSON.stringify(storage), JSON.stringify(original)],
+    );
+  if (enrichNutrition && nutrition)
+    await client.query(
+      `UPDATE recipes SET data=jsonb_set(data,'{nutrition}',$2::jsonb),updated_at=now()
+       WHERE id=$1 AND NOT (data ? 'nutrition') AND data - 'storage'=$3::jsonb
+       AND NOT EXISTS (SELECT 1 FROM seed_snapshots WHERE entity_type='recipes' AND id=$1)`,
+      [recipe.id, JSON.stringify(nutrition), JSON.stringify(original)],
+    );
+}
+
 export function seedAction(
   current: unknown,
   previous: unknown,

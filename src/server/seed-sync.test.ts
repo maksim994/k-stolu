@@ -9,7 +9,7 @@ import {
 } from "vitest";
 import { Pool, type PoolClient } from "pg";
 import { readFile } from "node:fs/promises";
-import { seedAction, syncSeed } from "./seed-sync";
+import { enrichLegacyRecipe, seedAction, syncSeed } from "./seed-sync";
 
 describe("seed update decisions", () => {
   const original = { id: "omelet", name: "Original" };
@@ -171,6 +171,35 @@ describe.skipIf(!process.env.TEST_DATABASE_URL)(
           .rowCount,
       ).toBe(0);
       expect(await getRecipe()).toEqual(recipe);
+    });
+    it("enriches untouched untracked legacy records before adopting them", async () => {
+      await client.query(
+        "INSERT INTO recipes(id,slug,status,data) VALUES($1,$2,$3,$4)",
+        [recipe.id, recipe.slug, recipe.status, JSON.stringify(recipe)],
+      );
+      const enriched = {
+        ...recipe,
+        storage: { fridgeDays: 2 },
+        nutrition: { kcal: 200 },
+      };
+      await enrichLegacyRecipe(client, enriched, true);
+      expect(await getRecipe()).toEqual(enriched);
+      expect((await syncSeed(client, "recipes", [enriched])).preserved).toBe(0);
+    });
+    it("does not reintroduce storage or nutrition deliberately removed by an editor", async () => {
+      const enriched = {
+        ...recipe,
+        storage: { fridgeDays: 2 },
+        nutrition: { kcal: 200 },
+      };
+      await syncSeed(client, "recipes", [enriched]);
+      await client.query(
+        "UPDATE recipes SET data=data-'storage'-'nutrition' WHERE id=$1",
+        [recipe.id],
+      );
+      await enrichLegacyRecipe(client, enriched, true);
+      expect(await getRecipe()).toEqual(recipe);
+      expect((await syncSeed(client, "recipes", [enriched])).preserved).toBe(1);
     });
   },
 );
